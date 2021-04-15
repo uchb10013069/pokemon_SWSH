@@ -14,6 +14,9 @@ import http.server
 from http.server import SimpleHTTPRequestHandler as RequestHandler
 from urllib.parse import urlparse
 
+#猜猜我是誰?
+#提示:你的好朋友
+
 db = MySQLdb.connect(host="127.0.0.1", user="admin", passwd="admin", db="mydatabase")
 #db = MySQLdb.connect(host="172.19.107.140", user="powenko", passwd="powenko", db="mydatabase")
 cursor = db.cursor()
